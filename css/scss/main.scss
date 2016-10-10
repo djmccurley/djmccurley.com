@@ -1,0 +1,18 @@
+@import 'html5bp';
+
+/* === Start of custom styles === */
+
+$animation: .15s ease all;
+$dmred: #FF3300;
+
+p {
+	font-weight: lighter;
+	color: $dmred;
+	transition: $animation;
+
+	&.callout {
+		color: pink;
+	}
+}
+
+@import 'helpers';
