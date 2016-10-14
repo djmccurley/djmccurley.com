@@ -1,0 +1,20 @@
+/* Paul Irish Border box */
+
+*, *:before, *:after {
+	box-sizing: border-box;
+}
+
+/* Global Styles */
+
+* {
+	/*border: thin solid red;*/
+}
+
+body {
+	padding: 3em;
+	font-family: sans-serif;
+}
+
+a { 
+	text-decoration: none;
+}
