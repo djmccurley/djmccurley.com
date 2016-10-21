@@ -2,42 +2,10 @@
 @import 'html5bp';
 @import 'globals';
 @import 'header';
+@import 'sidebar';
 @import 'section';
 
 
-
-/* main column styles */
-
-.main {
-	max-width: 31.25em;
-	min-width: 15em;
-	float: left;
-}
-.main h2 {
-	margin-top: 2.5em;
-	margin-bottom: 1.9em;
-	font-size: 1.25em;
-	text-transform: uppercase;
-}
-
-.main p {
-	line-height: 1.4em;
-	margin-bottom: 1.4em;
-}
-
-.main img {
-	max-width: 100%;
-}
-
-.main a {
-	color: #FF3300;
-}
-
-.main a:hover, .main a:focus {
-	background-color: #FF3300;
-	color: #fff;
-	transition: .15s ease all;
-}
 
 /* contact page */
 

@@ -1,0 +1,33 @@
+/* main column styles */
+
+.main {
+	max-width: 31.25em;
+	min-width: 15em;
+	float: left;
+
+	h3 {
+		margin-top: 0;
+		margin-bottom: 1.9em;
+		font-size: 1.25em;
+		text-transform: uppercase;
+	}
+
+	p {
+		line-height: 1.4em;
+		margin-bottom: 1.4em;
+	}
+
+	img {
+		max-width: 100%;
+	}
+
+	a {
+		color: #FF3300;
+	}
+
+	a:hover, a:focus {
+		background-color: #FF3300;
+		color: #fff;
+		transition: .15s ease all;
+	}
+}

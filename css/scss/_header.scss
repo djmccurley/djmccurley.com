@@ -1,49 +1,25 @@
-/* Header/sidebar column Styles*/
+/* fixed header bar styles */
+.fixed_header {
+  position: fixed;
+  padding: .5em;
+  width: 100%;
+  z-index: 1;
+  top: 0%;
+  background-color: $black;
 
-.sidebar {
-	width: 15em;
-	float: left;
-	margin-right: 2.5em;
-	text-transform: uppercase;
+  h1 {
+  	display: inline-block;
+  	margin: 0;
+  	line-height: 0;
+  }
+	 
+	 ul {
+  	margin: 0;
+  	float: right;
+	}
 
-		ul {
-		padding: 0;
-		list-style: none;
-		margin-bottom: 1.5em;
-			a:hover, a:focus {
-				background-color: $dmred;
-				color: $white;
-				transition: .15s ease all;
-			}
-		}
-
-		a {
-		color: $black;
-		display: block;
-		width: 100%;
-		}
-
-		h1 {
-			font-size: 2.5em;
-			line-height: .9em;
-			margin-bottom: 1em;
-			margin-top: 0;
-
-			a {
-				display: block;
-				letter-spacing: -1px;
-				font-weight: bold;
-			}
-			span {
-				display: block;
-			}
-		}
-
-		li, p {
-			font-size: 1em;
-		  line-height: 1.4em;
-		}	
-		p {
-		  color: #ccc;
-		}
+	li {
+  	display: inline-block;
+  	margin-right: .5em;
+	}
 }

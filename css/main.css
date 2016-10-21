@@ -83,11 +83,33 @@ textarea {
   /*border: thin solid red;*/ }
 
 body {
-  padding: 3em;
   font-family: sans-serif; }
 
 a {
   text-decoration: none; }
+
+.page_wrapper {
+  padding: 1em;
+  margin-top: 3rem; }
+
+/* fixed header bar styles */
+.fixed_header {
+  position: fixed;
+  padding: .5em;
+  width: 100%;
+  z-index: 1;
+  top: 0%;
+  background-color: #000; }
+  .fixed_header h1 {
+    display: inline-block;
+    margin: 0;
+    line-height: 0; }
+  .fixed_header ul {
+    margin: 0;
+    float: right; }
+  .fixed_header li {
+    display: inline-block;
+    margin-right: .5em; }
 
 /* Header/sidebar column Styles*/
 .sidebar {
@@ -107,16 +129,16 @@ a {
     color: #000;
     display: block;
     width: 100%; }
-  .sidebar h1 {
+  .sidebar h2 {
     font-size: 2.5em;
     line-height: .9em;
     margin-bottom: 1em;
-    margin-top: 0; }
-    .sidebar h1 a {
+    margin-top: 1.5rem; }
+    .sidebar h2 a {
       display: block;
       letter-spacing: -1px;
       font-weight: bold; }
-    .sidebar h1 span {
+    .sidebar h2 span {
       display: block; }
   .sidebar li, .sidebar p {
     font-size: 1em;
@@ -124,32 +146,30 @@ a {
   .sidebar p {
     color: #ccc; }
 
+.sidebar_info {
+  display: none; }
+
 /* main column styles */
 .main {
   max-width: 31.25em;
   min-width: 15em;
   float: left; }
-
-.main h2 {
-  margin-top: 2.5em;
-  margin-bottom: 1.9em;
-  font-size: 1.25em;
-  text-transform: uppercase; }
-
-.main p {
-  line-height: 1.4em;
-  margin-bottom: 1.4em; }
-
-.main img {
-  max-width: 100%; }
-
-.main a {
-  color: #FF3300; }
-
-.main a:hover, .main a:focus {
-  background-color: #FF3300;
-  color: #fff;
-  transition: .15s ease all; }
+  .main h3 {
+    margin-top: 0;
+    margin-bottom: 1.9em;
+    font-size: 1.25em;
+    text-transform: uppercase; }
+  .main p {
+    line-height: 1.4em;
+    margin-bottom: 1.4em; }
+  .main img {
+    max-width: 100%; }
+  .main a {
+    color: #FF3300; }
+  .main a:hover, .main a:focus {
+    background-color: #FF3300;
+    color: #fff;
+    transition: .15s ease all; }
 
 /* contact page */
 .contact p {
