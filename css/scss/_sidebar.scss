@@ -1,9 +1,6 @@
 /* Header/sidebar column Styles*/
 
 .sidebar {
-	width: 15em;
-	float: left;
-	margin-right: 2.5em;
 	text-transform: uppercase;
 
 		ul {
@@ -11,8 +8,6 @@
 		list-style: none;
 		margin-bottom: 1.5em;
 			a:hover, a:focus {
-				background-color: $dmred;
-				color: $white;
 				transition: .15s ease all;
 			}
 		}
@@ -24,7 +19,7 @@
 		}
 
 		h2 {
-			font-size: 2.5em;
+			font-size: 2.6em;
 			line-height: .9em;
 			margin-bottom: 1em;
 			margin-top: 1.5rem;
@@ -44,7 +39,7 @@
 		  line-height: 1.4em;
 		}	
 		p {
-		  color: #ccc;
+		  color: $grey;
 		}
 }
 

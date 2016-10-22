@@ -16,10 +16,11 @@
 	 ul {
   	margin: 0;
   	float: right;
+  	list-style: none;
 	}
 
 	li {
   	display: inline-block;
-  	margin-right: .5em;
+  	margin-left: .5em;
 	}
 }
