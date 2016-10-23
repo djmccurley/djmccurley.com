@@ -18,11 +18,22 @@
 		max-width: 100%;
 	}
 
-	a {
-
+	a:link, a:visited {
+		color: $black;
+		border-bottom: thin solid $black;
 	}
 
-	a:hover, a:focus {
-		transition: .15s ease all;
+	a:hover, a:focus, a:active {
+		border-bottom: thin dotted $black;
 	}
+}
+
+/* contact page */
+
+.contact p {
+	text-transform: uppercase;
+}
+.contact a {
+	display: block;
+	width: 60%;
 }

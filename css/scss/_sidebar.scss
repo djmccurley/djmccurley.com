@@ -12,10 +12,17 @@
 			}
 		}
 
-		a {
+		a:link, a:visited {
 		color: $black;
 		display: block;
 		width: 100%;
+		transition: $animate;
+		}
+
+		a:hover, a:focus, a:active {
+			background-color: $black;
+			color: $white;
+			transition: $animate;
 		}
 
 		h2 {
@@ -24,10 +31,13 @@
 			margin-bottom: 1em;
 			margin-top: 1.5rem;
 
-			a {
+			a:link, a:visited, a:hover,
+			a:focus, a:active {
 				display: block;
 				letter-spacing: -1px;
 				font-weight: bold;
+				color: $black;
+				background-color: $white;
 			}
 			span {
 				display: block;

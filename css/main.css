@@ -83,7 +83,7 @@ textarea {
   /*border: thin solid red;*/ }
 
 body {
-  font-family: sans-serif; }
+  font-family: 'Insonsolata', monospace; }
 
 a {
   text-decoration: none; }
@@ -95,7 +95,7 @@ a {
 /* fixed header bar styles */
 .fixed_header {
   position: fixed;
-  padding: .5em 0;
+  padding: .25em 0;
   width: 100%;
   z-index: 1;
   top: 0%;
@@ -104,7 +104,10 @@ a {
     display: inline-block;
     margin: 0;
     line-height: 0;
-    padding-left: 1rem; }
+    padding-top: .25rem;
+    padding-left: 1rem;
+    font-size: 1.5rem;
+    color: #fff; }
   .fixed_header ul {
     margin: 0;
     float: right;
@@ -112,7 +115,12 @@ a {
     padding-right: 1rem; }
   .fixed_header li {
     display: inline-block;
-    margin-left: .5em; }
+    margin-left: .75em;
+    color: #fff;
+    padding-top: .5rem; }
+    .fixed_header li i {
+      font-size: 1.5rem;
+      line-height: 0; }
 
 /* Header/sidebar column Styles*/
 .sidebar {
@@ -123,19 +131,27 @@ a {
     margin-bottom: 1.5em; }
     .sidebar ul a:hover, .sidebar ul a:focus {
       transition: .15s ease all; }
-  .sidebar a {
+  .sidebar a:link, .sidebar a:visited {
     color: #000;
     display: block;
-    width: 100%; }
+    width: 100%;
+    transition: 0.15s ease all; }
+  .sidebar a:hover, .sidebar a:focus, .sidebar a:active {
+    background-color: #000;
+    color: #fff;
+    transition: 0.15s ease all; }
   .sidebar h2 {
     font-size: 2.6em;
     line-height: .9em;
     margin-bottom: 1em;
     margin-top: 1.5rem; }
-    .sidebar h2 a {
+    .sidebar h2 a:link, .sidebar h2 a:visited, .sidebar h2 a:hover,
+    .sidebar h2 a:focus, .sidebar h2 a:active {
       display: block;
       letter-spacing: -1px;
-      font-weight: bold; }
+      font-weight: bold;
+      color: #000;
+      background-color: #fff; }
     .sidebar h2 span {
       display: block; }
   .sidebar li, .sidebar p {
@@ -158,8 +174,19 @@ a {
   margin-bottom: 1.4em; }
 .main img {
   max-width: 100%; }
-.main a:hover, .main a:focus {
-  transition: .15s ease all; }
+.main a:link, .main a:visited {
+  color: #000;
+  border-bottom: thin solid #000; }
+.main a:hover, .main a:focus, .main a:active {
+  border-bottom: thin dotted #000; }
+
+/* contact page */
+.contact p {
+  text-transform: uppercase; }
+
+.contact a {
+  display: block;
+  width: 60%; }
 
 @media (min-width: 400px) {
   .page_wrapper {
@@ -201,14 +228,6 @@ a {
     max-width: 31.25em; }
     .main p {
       font-size: 1rem; } }
-/* contact page */
-.contact p {
-  text-transform: uppercase; }
-
-.contact a {
-  display: block;
-  width: 60%; }
-
 /* ==========================================================================
    Helper classes
    ========================================================================== */

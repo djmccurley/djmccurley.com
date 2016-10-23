@@ -1,7 +1,7 @@
 /* fixed header bar styles */
 .fixed_header {
   position: fixed;
-  padding: .5em 0;
+  padding: .25em 0;
   width: 100%;
   z-index: 1;
   top: 0%;
@@ -11,7 +11,10 @@
   	display: inline-block;
   	margin: 0;
   	line-height: 0;
+ 		padding-top: .25rem;
   	padding-left: 1rem;
+  	font-size: 1.5rem;
+  	color: $white;
   }
 	 
 	 ul {
@@ -23,6 +26,15 @@
 
 	li {
   	display: inline-block;
-  	margin-left: .5em;
+  	margin-left: .75em;
+  	color: $white;
+  	padding-top: .5rem;
+
+  	i {
+  		
+  		font-size: 1.5rem;
+  		line-height: 0;
+  	}
 	}
+
 }
