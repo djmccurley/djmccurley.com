@@ -1,0 +1,28 @@
+@media (min-width: 875px) {
+	.page_wrapper {
+		max-width: 100%;
+	}
+
+	.sidebar {
+		width: 15em;
+		position: fixed;
+		h2 {
+			margin-bottom: 2rem;
+		}
+	}
+
+	.sidebar_info {
+		display: block;
+	}	
+
+	.main {
+		padding-top: 3rem;
+		float: left;
+		margin-left: 19em;
+		max-width: 31.25em;
+
+		p {
+			font-size: 1rem;
+		}
+	}
+}

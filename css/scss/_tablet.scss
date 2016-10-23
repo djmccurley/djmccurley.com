@@ -1,0 +1,21 @@
+@media (min-width: 600px) {
+	.page_wrapper {
+	padding: 4rem 3rem 1rem 3rem;
+	}
+
+	.fixed_header {
+		h1 {
+			padding-left: 3rem;
+		}
+	}	
+
+	.img_holder {
+		width: 45%;
+		margin: 0 5% 1rem 0;
+		float: left;
+	}
+
+	.img_clicked {
+		width: 95%;
+	}
+}
