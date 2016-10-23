@@ -83,13 +83,13 @@ textarea {
   /*border: thin solid red;*/ }
 
 body {
-  font-family: 'Insonsolata', monospace; }
+  font-family: 'Inconsolata', monospace; }
 
 a {
   text-decoration: none; }
 
 .page_wrapper {
-  padding: 4rem 1rem 1rem 1rem;
+  padding: 3rem 1rem 1rem 1rem;
   max-width: 37.5rem; }
 
 /* fixed header bar styles */
@@ -123,42 +123,41 @@ a {
       line-height: 0; }
 
 /* Header/sidebar column Styles*/
-.sidebar {
-  text-transform: uppercase; }
-  .sidebar ul {
-    padding: 0;
-    list-style: none;
-    margin-bottom: 1.5em; }
-    .sidebar ul a:hover, .sidebar ul a:focus {
-      transition: .15s ease all; }
-  .sidebar a:link, .sidebar a:visited {
-    color: #000;
+.sidebar ul {
+  padding: 0;
+  list-style: none;
+  margin-bottom: 1.5em; }
+  .sidebar ul a:hover, .sidebar ul a:focus {
+    transition: .15s ease all; }
+.sidebar a:link, .sidebar a:visited {
+  color: #000;
+  display: block;
+  width: 100%;
+  transition: 0.15s ease all; }
+.sidebar a:hover, .sidebar a:focus, .sidebar a:active {
+  background-color: #FF3300;
+  color: #fff;
+  transition: 0.15s ease all; }
+.sidebar h2 {
+  font-size: 2em;
+  line-height: .9em;
+  margin-bottom: 1em;
+  margin-top: 1.5rem;
+  display: inline-block;
+  /* text-transform: uppercase; */ }
+  .sidebar h2 a:link, .sidebar h2 a:visited, .sidebar h2 a:hover,
+  .sidebar h2 a:focus, .sidebar h2 a:active {
     display: block;
-    width: 100%;
-    transition: 0.15s ease all; }
-  .sidebar a:hover, .sidebar a:focus, .sidebar a:active {
-    background-color: #000;
-    color: #fff;
-    transition: 0.15s ease all; }
-  .sidebar h2 {
-    font-size: 2.6em;
-    line-height: .9em;
-    margin-bottom: 1em;
-    margin-top: 1.5rem; }
-    .sidebar h2 a:link, .sidebar h2 a:visited, .sidebar h2 a:hover,
-    .sidebar h2 a:focus, .sidebar h2 a:active {
-      display: block;
-      letter-spacing: -1px;
-      font-weight: bold;
-      color: #000;
-      background-color: #fff; }
-    .sidebar h2 span {
-      display: block; }
-  .sidebar li, .sidebar p {
-    font-size: 1em;
-    line-height: 1.4em; }
-  .sidebar p {
-    color: #ccc; }
+    font-weight: 700;
+    color: #000;
+    background-color: #fff; }
+  .sidebar h2 span {
+    display: block; }
+.sidebar li, .sidebar p {
+  font-size: 1em;
+  line-height: 1.4em; }
+.sidebar p {
+  color: #ccc; }
 
 .sidebar_info {
   display: none; }
@@ -167,7 +166,8 @@ a {
 .main h3 {
   margin: 1.4em 0 1.4em 0;
   font-size: 1.25em;
-  text-transform: uppercase; }
+  text-transform: uppercase;
+  font-weight: 400; }
 .main p {
   font-size: 1.1rem;
   line-height: 1.4em;
@@ -190,13 +190,13 @@ a {
 
 @media (min-width: 400px) {
   .page_wrapper {
-    padding: 4rem 2rem 1rem 2rem; }
+    padding: 3rem 2rem 1rem 2rem; }
 
   .fixed_header h1 {
     padding-left: 2rem; } }
 @media (min-width: 600px) {
   .page_wrapper {
-    padding: 4rem 3rem 1rem 3rem; }
+    padding: 3rem 3rem 1rem 3rem; }
 
   .fixed_header h1 {
     padding-left: 3rem; }

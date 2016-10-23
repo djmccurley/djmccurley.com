@@ -1,8 +1,6 @@
 /* Header/sidebar column Styles*/
 
 .sidebar {
-	text-transform: uppercase;
-
 		ul {
 		padding: 0;
 		list-style: none;
@@ -20,22 +18,23 @@
 		}
 
 		a:hover, a:focus, a:active {
-			background-color: $black;
+			background-color: $dmred;
 			color: $white;
 			transition: $animate;
 		}
 
 		h2 {
-			font-size: 2.6em;
+			font-size: 2em;
 			line-height: .9em;
 			margin-bottom: 1em;
 			margin-top: 1.5rem;
+			display: inline-block;
+			/* text-transform: uppercase; */
 
 			a:link, a:visited, a:hover,
 			a:focus, a:active {
 				display: block;
-				letter-spacing: -1px;
-				font-weight: bold;
+				font-weight: 700;
 				color: $black;
 				background-color: $white;
 			}
