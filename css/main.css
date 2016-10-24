@@ -92,36 +92,6 @@ a {
   padding: 3rem 1rem 1rem 1rem;
   max-width: 37.5rem; }
 
-/* fixed header bar styles */
-.fixed_header {
-  position: fixed;
-  padding: .25em 0;
-  width: 100%;
-  z-index: 1;
-  top: 0%;
-  background-color: #000; }
-  .fixed_header h1 {
-    display: inline-block;
-    margin: 0;
-    line-height: 0;
-    padding-top: .25rem;
-    padding-left: 1rem;
-    font-size: 1.5rem;
-    color: #fff; }
-  .fixed_header ul {
-    margin: 0;
-    float: right;
-    list-style: none;
-    padding-right: 1rem; }
-  .fixed_header li {
-    display: inline-block;
-    margin-left: .75em;
-    color: #fff;
-    padding-top: .5rem; }
-    .fixed_header li i {
-      font-size: 1.5rem;
-      line-height: 0; }
-
 /* Header/sidebar column Styles*/
 .sidebar ul {
   padding: 0;
@@ -138,20 +108,20 @@ a {
   background-color: #FF3300;
   color: #fff;
   transition: 0.15s ease all; }
-.sidebar h2 {
+.sidebar h1 {
   font-size: 2em;
   line-height: .9em;
   margin-bottom: 1em;
   margin-top: 1.5rem;
   display: inline-block;
   /* text-transform: uppercase; */ }
-  .sidebar h2 a:link, .sidebar h2 a:visited, .sidebar h2 a:hover,
-  .sidebar h2 a:focus, .sidebar h2 a:active {
+  .sidebar h1 a:link, .sidebar h1 a:visited, .sidebar h1 a:hover,
+  .sidebar h1 a:focus, .sidebar h1 a:active {
     display: block;
     font-weight: 700;
     color: #000;
     background-color: #fff; }
-  .sidebar h2 span {
+  .sidebar h1 span {
     display: block; }
 .sidebar li, .sidebar p {
   font-size: 1em;
@@ -163,7 +133,7 @@ a {
   display: none; }
 
 /* main column styles */
-.main h3 {
+.main h2 {
   margin: 1.4em 0 1.4em 0;
   font-size: 1.25em;
   text-transform: uppercase;
