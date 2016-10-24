@@ -18,9 +18,7 @@
 		}
 
 		a:hover, a:focus, a:active {
-			background-color: $dmred;
-			color: $white;
-			transition: $animate;
+			text-decoration: underline;
 		}
 
 		h1 {
@@ -34,9 +32,9 @@
 			a:link, a:visited, a:hover,
 			a:focus, a:active {
 				display: block;
-				font-weight: 700;
+				font-weight: 400;
 				color: $black;
-				background-color: $white;
+				text-decoration: none;
 			}
 			span {
 				display: block;
@@ -45,7 +43,7 @@
 
 		li, p {
 			font-size: 1em;
-		  line-height: 1.4em;
+		  line-height: 1.5em;
 		}	
 		p {
 		  color: $grey;

@@ -89,7 +89,7 @@ a {
   text-decoration: none; }
 
 .page_wrapper {
-  padding: 3rem 1rem 1rem 1rem;
+  padding: 1rem 1rem 1rem 1rem;
   max-width: 37.5rem; }
 
 /* Header/sidebar column Styles*/
@@ -105,9 +105,7 @@ a {
   width: 100%;
   transition: 0.15s ease all; }
 .sidebar a:hover, .sidebar a:focus, .sidebar a:active {
-  background-color: #FF3300;
-  color: #fff;
-  transition: 0.15s ease all; }
+  text-decoration: underline; }
 .sidebar h1 {
   font-size: 2em;
   line-height: .9em;
@@ -118,16 +116,16 @@ a {
   .sidebar h1 a:link, .sidebar h1 a:visited, .sidebar h1 a:hover,
   .sidebar h1 a:focus, .sidebar h1 a:active {
     display: block;
-    font-weight: 700;
+    font-weight: 400;
     color: #000;
-    background-color: #fff; }
+    text-decoration: none; }
   .sidebar h1 span {
     display: block; }
 .sidebar li, .sidebar p {
   font-size: 1em;
-  line-height: 1.4em; }
+  line-height: 1.5em; }
 .sidebar p {
-  color: #ccc; }
+  color: #bbb; }
 
 .sidebar_info {
   display: none; }
@@ -140,7 +138,7 @@ a {
   font-weight: 400; }
 .main p {
   font-size: 1.1rem;
-  line-height: 1.4em;
+  line-height: 1.5em;
   margin-bottom: 1.4em; }
 .main img {
   max-width: 100%; }
@@ -160,13 +158,13 @@ a {
 
 @media (min-width: 400px) {
   .page_wrapper {
-    padding: 3rem 2rem 1rem 2rem; }
+    padding: 2rem 2rem 1rem 2rem; }
 
   .fixed_header h1 {
     padding-left: 2rem; } }
 @media (min-width: 600px) {
   .page_wrapper {
-    padding: 3rem 3rem 1rem 3rem; }
+    padding: 3rem 3rem 1rem 5rem; }
 
   .fixed_header h1 {
     padding-left: 3rem; }
@@ -180,7 +178,8 @@ a {
     width: 95%; } }
 @media (min-width: 875px) {
   .page_wrapper {
-    max-width: 100%; }
+    max-width: 100%;
+    padding: 3rem 3rem 1rem 6rem; }
 
   .sidebar {
     width: 15em;
@@ -192,10 +191,12 @@ a {
     display: block; }
 
   .main {
-    padding-top: 3rem;
+    padding-top: 1.825rem;
     float: left;
-    margin-left: 19em;
+    margin-left: 18em;
     max-width: 31.25em; }
+    .main h2 {
+      margin: 1.4em 0 2.2em 0; }
     .main p {
       font-size: 1rem; } }
 /* ==========================================================================
