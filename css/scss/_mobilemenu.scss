@@ -12,8 +12,9 @@
 
 	ul {
 		list-style: none;
-		font-size: 1.8rem;
+		font-size: 1.4rem;
 		line-height: 1.3em;
+		margin-top: 3em;
 		margin-bottom: 2em;
 
 		li {
@@ -31,7 +32,7 @@ body.show_menu {
 	.page_wrapper {
 		transform: translateX(100%);
 		margin-top: -10000px;
-		transition: .4s ease all;
+		transition: transform .4s ease-in, margin-top 0s .4s;
 
 		.sidebar {
 			i.menu_button {

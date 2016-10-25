@@ -29,15 +29,22 @@ i.menu_button {
 	border-radius: 50%;
 	cursor: pointer;
 	z-index: 2;
+	transition: $animate;
 
 	&:hover, &:active, &:focus {
 		background-color: rgba(0, 0, 0, .9);
 		color: $white;
 		transition: $animate;
 	}
+
+	&:active {
+		padding: 1.5rem;
+		font-size: 1.6em;
+	}
 }
 .page_wrapper {
 	padding: 1rem 1rem 1rem 1rem;
 	max-width: 37.5rem;
 	background-color: $white;
+	transition: transform .4s ease-out;
 }
