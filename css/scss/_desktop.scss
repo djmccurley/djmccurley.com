@@ -1,4 +1,7 @@
 @media (min-width: 875px) {
+	i.menu_button {
+		display: none !important;
+	}
 	.page_wrapper {
 		max-width: 100%;
 		padding: 3rem 3rem 1rem 6rem;
@@ -11,9 +14,6 @@
 			margin-bottom: 2rem;
 		}
 
-		i.menu_button {
-			display: none !important;
-		}
 	}
 
 	.sidebar_info {
