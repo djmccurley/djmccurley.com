@@ -1,0 +1,26 @@
+.mobile_menu {
+	display: block;
+	background-color: $white;
+	width: 100%;
+	z-index: -1;
+	position: absolute;
+	top: 0;
+	left: 0;
+	overflow: scroll;
+	padding: 1rem 1rem;
+
+
+	ul {
+		list-style: none;
+		font-size: 1.8rem;
+		line-height: 1.3em;
+		margin-bottom: 2em;
+
+		li {
+			margin-bottom: 1em;
+		}
+		a {
+			color: $black;
+		}
+	}
+}

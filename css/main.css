@@ -90,7 +90,8 @@ a {
 
 .page_wrapper {
   padding: 1rem 1rem 1rem 1rem;
-  max-width: 37.5rem; }
+  max-width: 37.5rem;
+  background-color: #fff; }
 
 /* Header/sidebar column Styles*/
 .sidebar i.menu_button {
@@ -101,7 +102,8 @@ a {
   padding: 1.25rem;
   background-color: rgba(255, 255, 255, 0.6);
   border-radius: 50%;
-  cursor: pointer; }
+  cursor: pointer;
+  z-index: 2; }
   .sidebar i.menu_button:hover, .sidebar i.menu_button:active, .sidebar i.menu_button:focus {
     background-color: rgba(0, 0, 0, 0.9);
     color: #fff;
@@ -190,6 +192,26 @@ a {
 
   .img_clicked {
     width: 95%; } }
+.mobile_menu {
+  display: block;
+  background-color: #fff;
+  width: 100%;
+  z-index: -1;
+  position: absolute;
+  top: 0;
+  left: 0;
+  overflow: scroll;
+  padding: 1rem 1rem; }
+  .mobile_menu ul {
+    list-style: none;
+    font-size: 1.8rem;
+    line-height: 1.3em;
+    margin-bottom: 2em; }
+    .mobile_menu ul li {
+      margin-bottom: 1em; }
+    .mobile_menu ul a {
+      color: #000; }
+
 @media (min-width: 875px) {
   .page_wrapper {
     max-width: 100%;
@@ -200,6 +222,8 @@ a {
     position: fixed; }
     .sidebar h2 {
       margin-bottom: 2rem; }
+    .sidebar i.menu_button {
+      display: none !important; }
 
   .sidebar_info {
     display: block; }
