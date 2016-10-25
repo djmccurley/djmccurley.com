@@ -24,3 +24,33 @@
 		}
 	}
 }
+
+body.show_menu {
+	overflow-x: hidden;
+
+	.page_wrapper {
+		transform: translateX(100%);
+		margin-top: -10000px;
+		transition: .4s ease all;
+
+		.sidebar {
+			i.menu_button {
+				color: $black;
+			}
+		}
+	}	
+
+	
+	
+}
+
+
+/* 
+	use these to animate menu
+	overflow-x: hide;
+
+
+		transform: translateX(100%);
+	margin-top: -10000px;
+
+	 */

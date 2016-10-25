@@ -212,6 +212,24 @@ a {
     .mobile_menu ul a {
       color: #000; }
 
+body.show_menu {
+  overflow-x: hidden; }
+  body.show_menu .page_wrapper {
+    transform: translateX(100%);
+    margin-top: -10000px;
+    transition: .4s ease all; }
+    body.show_menu .page_wrapper .sidebar i.menu_button {
+      color: #000; }
+
+/* 
+	use these to animate menu
+	overflow-x: hide;
+
+
+		transform: translateX(100%);
+	margin-top: -10000px;
+
+	 */
 @media (min-width: 875px) {
   .page_wrapper {
     max-width: 100%;
