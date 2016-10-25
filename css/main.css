@@ -212,12 +212,12 @@ i.menu_button {
     list-style: none;
     font-size: 1.4rem;
     line-height: 1.3em;
-    margin-top: 2em;
-    padding: 0 0 0 1em; }
+    padding: 1em 0 0 1em; }
     .mobile_menu ul li {
       margin-bottom: 1em; }
     .mobile_menu ul a {
-      color: #000; }
+      color: #000;
+      border-bottom: 1px solid #000; }
 
 body.show_menu {
   overflow-x: hidden; }
