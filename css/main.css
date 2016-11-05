@@ -168,6 +168,11 @@ i.menu_button {
   border-bottom: thin solid #000; }
 .main a:hover, .main a:focus, .main a:active {
   border-bottom: thin dotted #000; }
+.main a.project:link, .main a.project:visited {
+  color: #FF3300;
+  border-bottom: none; }
+.main a.project:hover, .main a.project:focus, .main a.project:active {
+  border-bottom: thin dotted #FF3300; }
 
 /* contact page */
 .contact p {

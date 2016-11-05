@@ -27,6 +27,15 @@
 	a:hover, a:focus, a:active {
 		border-bottom: $linkaction;
 	}
+
+	a.project:link, a.project:visited {
+		color: $dmred;
+		border-bottom: none;
+	}
+
+	a.project:hover, a.project:focus, a.project:active {
+		border-bottom: $linkactionred;
+	}
 }
 
 /* contact page */
