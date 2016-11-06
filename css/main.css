@@ -220,9 +220,12 @@ i.menu_button {
     padding: 1em 0 0 1em; }
     .mobile_menu ul li {
       margin-bottom: 1em; }
-    .mobile_menu ul a {
+    .mobile_menu ul a:link, .mobile_menu ul a:visited {
       color: #000;
       border-bottom: 1px solid #000; }
+    .mobile_menu ul a:hover, .mobile_menu ul a:focus, .mobile_menu ul a:active {
+      color: #000;
+      border-bottom: 1px dotted #000; }
 
 body.show_menu {
   overflow-x: hidden; }
