@@ -1,7 +1,6 @@
 /* main column styles */
 
 .main {
-
 	h2 {
 		margin: 1.4em 0 1.4em 0;
 		font-size: 1.25em;
@@ -36,6 +35,11 @@
 	a.project:hover, a.project:focus, a.project:active {
 		border-bottom: $linkactionred;
 	}
+}
+
+// hides mobile menu
+.extend_vertical {
+	padding-bottom: 15rem;
 }
 
 /* contact page */
