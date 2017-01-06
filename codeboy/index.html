@@ -1,0 +1,50 @@
+<!doctype html>
+<html>
+	<head lang="en">
+		<title>Codeboy 1.0</title>
+		<meta charset="utf-8">
+		<link href="https://fonts.googleapis.com/css?family=Black+Ops+One|VT323" rel="stylesheet">
+		<link rel="stylesheet" type="text/css" href="main.css">
+	</head>
+	<body>
+		<div class="app_wrapper clearfix">
+			<div class="control_panel">		
+				<div class="control_module">
+					<h1>Codeboy 1.0</h1>	
+				</div>
+				<form class="controls">
+					<div class="control_module">
+						<h2>Select Mode:</h2>
+						<div class="radio_wrapper">
+							<label><input type="radio" name="mode" id="mode_encode" class="radio" value="encode" checked> Encode</label>
+						</div>
+						<div class="radio_wrapper">
+						  <label><input type="radio" name="mode" id="mode_decode" class="radio" value="decode"> Decode</label>
+						 </div> 
+					</div>  
+					<div class="control_module">	 
+						<h2>Code Channel:</h2>	  
+						<select name="code_channel" id="codeChannel">
+						  <option value="a">Alpha</option>
+						  <option value="b">Bravo</option>
+						  <option value="c">Charlie</option>
+						</select>
+					</div>
+				</form>
+			</div>
+			<div class="screens">		
+				<textarea id="input" name="input">Enter message here</textarea>
+				<div id="output"></div>
+				<div class="share_buttons clearfix">
+					<a id="tweet" class="button twitter" target="_blank" href="https://twitter.com/intent/tweet?text=I'm using Codeboy 1.0!" title="Tweet this quote">Tweet</a>
+					<a id="copy" class="button copy" href="#!" title="Copy to Clipboard" data-clipboard-target="#output">Copy</a>	
+				</div> <!-- share_buttons -->
+			</div>
+		</div> <!-- app_wrapper -->
+		<footer>
+			<p>&copy; <a href="http://djmccurley.com" target="_blank" title="djmccurley.com">Dan McCurley</a> – <a href="#!" id="about_link" title="About this Project">About</a> – <a href="https://github.com/djmccurley/idm-javascript/tree/master/final" target="_blank" title="View project on GitHub">View on GitHub</a></p>
+		</footer>
+		<script src="jquery-3.1.1.min.js"></script>
+		<script src="clipboard.min.js"></script>
+		<script src="script.js"></script>
+	</body>
