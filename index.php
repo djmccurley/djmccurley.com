@@ -22,7 +22,7 @@
     <i id="menu_button" class="fa fa-bars menu_button"></i>
     <div id="page_wrapper" class="page_wrapper clearfix">    
       <div class="sidebar">
-        <?php include 'sidebar.php' ; ?>
+        <?php include 'php/sidebar.php' ; ?>
       </div> <!-- sidebar -->   
 
       <section class="main extend_vertical">
