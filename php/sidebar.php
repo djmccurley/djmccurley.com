@@ -50,7 +50,7 @@ echo '
           </ul>
         </nav>
 
-        <p>&copy; 2013 - 2016</p>
+        <p>&copy; 2013 - 2017</p>
         </div> <!-- sidebar_info -->
         </div> <!-- sidebar -->' ;
 ?>
