@@ -12,6 +12,9 @@ echo '
         <nav class="menu">
           <ul class="work">
             <li>
+              <a href="wiki_app.php">Wikipedia Search</a>
+            </li>
+            <li>
               <a href="receipt_app.php">Receipt Splitter</a>
             </li>
             <li>
@@ -33,10 +36,7 @@ echo '
               <a href="pial.php">Parenting: It\'s a Life</a>
             </li>
             <li>
-              <a href="illustration.php">Illustrations</a>
-            </li>
-            <li>
-              <a href="pixel_art.php">Pixel Art</a>
+              <a href="illustration.php">Illustration</a>
             </li>
           </ul>
       

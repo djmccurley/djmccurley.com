@@ -25,7 +25,7 @@
   
 
       <section class="main">
-          <h2>Illustrations</h2>
+          <h2>Illustration</h2>
 
           <p>Here are some illustrations I've made over the past couple years. Most of them are hand-drawn using ink or paint pens, then colored and finished digitally. A few are 100% digital.</p>
 

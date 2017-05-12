@@ -30,14 +30,7 @@
 
           <p>I built this app to help with our monthly budgeting using <a href="http://ynab.com" target="_blank">YNAB</a>. YNAB is great software, but it didn't allow me to split receipts like this in the app itself. This project grew out of a local spreadsheet that I wanted to access while on the go.</p>
 
-          <p>Receipt Splitter is built by hand using:</p>
-          <ul>
-              <li>HTML</li>
-              <li>CSS/SASS</li>
-              <li>Javascript</li>
-              <li>jQuery</li>
-              <li>Google Fonts</li>
-          </ul>
+          <p>This app is currently under development - check GitHub for an updated listed of issues and features in development.</p>
 
           <p><a href="receipt_app/index.html" class="project" target="_blank">Launch App</a> | <a href="https://github.com/djmccurley/receipt-splitter" class="project" target="_blank">Project on GitHub</a></p>
 
