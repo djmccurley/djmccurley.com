@@ -3,7 +3,7 @@
 echo '
 			<div class="sidebar">
 				<h1>
-            <a href="#"><span>Dan</span> <span>McCurley</span></a>
+            <a href="index.php"><span>Dan</span> <span>McCurley</span></a>
         </h1>
         
 
@@ -12,40 +12,40 @@ echo '
         <nav class="menu">
           <ul class="work">
             <li>
-              <a href="receipt_app.html">Receipt Splitter</a>
+              <a href="receipt_app.php">Receipt Splitter</a>
             </li>
             <li>
-              <a href="codeboy.html">Codeboy 1.0</a>
+              <a href="codeboy.php">Codeboy 1.0</a>
             </li>
             <li>
-              <a href="quote_app.html">Random Quote Generator</a>
+              <a href="quote_app.php">Random Quote Generator</a>
             </li>
             <li>
-              <a href="weather_app.html">Local Weather App</a>
+              <a href="weather_app.php">Local Weather App</a>
             </li>
             <li>
-              <a href="sewage.html">Sewage Free Seas</a>
+              <a href="sewage.php">Sewage Free Seas</a>
             </li>
 	          <li>
-              <a href="white_birch.html">White Birch Resort</a>
+              <a href="white_birch.php">White Birch Resort</a>
             </li>
             <li>
-              <a href="pial.html">Parenting: It\'s a Life</a>
+              <a href="pial.php">Parenting: It\'s a Life</a>
             </li>
             <li>
-              <a href="illustration.html">Illustrations</a>
+              <a href="illustration.php">Illustrations</a>
             </li>
             <li>
-              <a href="pixel_art.html">Pixel Art</a>
+              <a href="pixel_art.php">Pixel Art</a>
             </li>
           </ul>
       
           <ul class="info">
             <li>
-              <a href="about.html">About</a>
+              <a href="about.php">About</a>
             </li>
             <li>
-              <a href="contact.html">Contact</a>
+              <a href="contact.php">Contact</a>
             </li>
           </ul>
         </nav>

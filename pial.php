@@ -1,0 +1,52 @@
+<!doctype html>
+<html class="no-js" lang="en">
+  <head>
+      <meta charset="utf-8">
+      <meta http-equiv="x-ua-compatible" content="ie=edge">
+      <title>Dan McCurley - Parenting: It's a Life</title>
+      <meta name="description" content="Dan McCurley Web Development and Design Portfolio - Parenting: It's a Life Logo">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+
+      <link rel="apple-touch-icon" href="apple-touch-icon.png">
+      <!-- Place favicon.ico in the root directory -->
+      <script src="https://use.fontawesome.com/a26c54cc82.js"></script>
+      <link href="https://fonts.googleapis.com/css?family=Inconsolata:400,700" rel="stylesheet">
+      <link rel="stylesheet" href="css/normalize.css">
+      <link rel="stylesheet" href="css/main.css">
+      <script src="js/modernizr-2.8.3.min.js"></script>
+  </head>
+  <body id="body" class="">
+    <!--[if lt IE 8]>
+        <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+    <![endif]-->
+    <i id="menu_button" class="fa fa-bars menu_button"></i>
+    <div id="page_wrapper" class="page_wrapper clearfix">    
+      <?php include 'php/sidebar.php' ; ?>
+      <section class="main">
+          <h2>Parenting: It's a Life</h2>
+
+          <p><a href="http://childwelfareproject.hs.iastate.edu/parenting-its-a-life/" target="_blank">Parenting: It's a Life (PIAL)</a> is a free curriculum presenting teens (Grades 7-12) with the realities of parenting – financial, legal, etc – so they can make informed life decisions.</p>
+
+          <p>The PIAL team approached me to redesign their existing logos to give the project an updated, professional visual identity. I worked to create a system that provides numerous layout and color options. I also wanted to ensure that the new logos would work with any existing materials, as resources and budgets are tight in the non-profit world.</p>
+
+          <p>The redesigned logos make use of a simpler tree &amp; leaf image that works at large and small sizes, as well as in color or black &amp; white. The logo system uses the 100% free <a href="https://www.fontsquirrel.com/fonts/aleo" target="_blank">Aleo</a> typeface to ensure PIAL can use it in future projects.</p>
+
+          <p>Original Logos:</p>
+
+          <p class="img_holder"><img src="img/pial_original_1.png" alt="pial original logo version 1"></p>
+          <p class="img_holder"><img src="img/pial_original_2.png" alt="pial original logo version 2"></p>
+
+          <p>Redesigned Logo System:</p>
+          <p><img src="img/pial_logo_2.png" alt="pial redesigned logo"></p>
+          <p><img src="img/pial_logo_1.png" alt="pial redesigned logo"></p>
+          <p><img src="img/pial_logo_4.png" alt="pial redesigned logo"></p>
+          <p><img src="img/pial_logo_3.png" alt="pial redesigned logo"></p>
+          
+
+
+      </section>
+    </div><!-- page_wrapper -->
+    <?php include 'php/mobile.php' ; ?>
+    <?php include 'php/scripts.php' ; ?>
+  </body>
+</html>
