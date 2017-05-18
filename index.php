@@ -27,7 +27,7 @@
 
           <p>I am a designer and front end developer based in Ames, Iowa. I'm currently working on my post-bacc certificate in Interactive Design and Marketing through <a href="http://mcad.edu" target="_blank">Minneapolis College of Art and Design (MCAD)</a>. This site is my internet home for all my design and development projects.</p>
           
-          <p>Please have a look around, and feel free to <a href="contact/contact.php" title="link to contact page">contact me</a> anytime.</p>
+          <p>Please have a look around, and feel free to <a href="contact.php" title="link to contact page">contact me</a> anytime.</p>
 
 
       </section>
