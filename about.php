@@ -29,7 +29,7 @@
 
           <p>I have a BA in Spanish from University of Northern Iowa and an MA in Linguistics from Ohio State. I'm currently working on a post-bacc certificate in Interactive Design and Marketing from <a href="http://mcad.edu/academic-programs/interactive-design-and-marketing-certificate" target="_blank">MCAD</a>.</p>
  
-          <p><a href="contact.html" class="project">Let's get in touch.</a></p>
+          <p><a href="contact.php" class="project">Let's get in touch.</a></p>
 
           <h2>About This Site</h2>
           <p>This site is hand-built and under constant revision. You can check out the process (or point out bugs) on GitHub!
