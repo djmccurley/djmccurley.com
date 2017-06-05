@@ -45,6 +45,7 @@ i.menu_button {
 .page_wrapper {
 	padding: 1rem 1rem 1rem 1rem;
 	max-width: 37.5rem;
+	min-height: 100vh;
 	background-color: $white;
 	transition: transform .4s ease-out;
 }

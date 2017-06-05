@@ -110,6 +110,7 @@ i.menu_button {
 .page_wrapper {
   padding: 1rem 1rem 1rem 1rem;
   max-width: 37.5rem;
+  min-height: 100vh;
   background-color: #fff;
   transition: transform .4s ease-out; }
 
@@ -210,6 +211,7 @@ i.menu_button {
   display: block;
   background-color: #fff;
   width: 100%;
+  min-height: 100vh;
   z-index: -1;
   position: absolute;
   top: 0;
