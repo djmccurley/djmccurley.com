@@ -27,6 +27,7 @@
           <h2>Contact Me</h2>
           <p><a href="mailto:djmccurley@gmail.com" class="project">Email</a></p>
           <p><a href="https://github.com/djmccurley" class="project" target="_blank">GitHub</a></p>
+          <p><a href="https://www.instagram.com/technolumina" class="project" target="_blank">Instagram</a></p>
           <p><a href="https://www.linkedin.com/in/djmccurley" class="project" target="_blank">LinkedIn</a></p>
           <p><a href="https://www.freecodecamp.com/djmccurley" class="project" target="_blank">freeCodeCamp</a></p>
 

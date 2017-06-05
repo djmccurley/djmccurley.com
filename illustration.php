@@ -29,7 +29,9 @@
 
           <p>Here are some illustrations I've made over the past couple years. Most of them are hand-drawn using ink or paint pens, then colored and finished digitally. A few are 100% digital.</p>
 
-          <p><img src="img/illustrations/hd_sticker.png" alt="Hummer Dave illustration" title="Hummer Dave - Vector Illustration (based on original pen drawing"></p>
+          <p><img src="img/illustrations/pedal_art_17.png" alt="Pedal Art 2017 Poster" title="Pedal Art 2017 Poster - Vector Illustration (based on original pen drawing)"></p>
+
+          <p><img src="img/illustrations/hd_sticker.png" alt="Hummer Dave illustration" title="Hummer Dave - Vector Illustration (based on original pen drawing)"></p>
 
           <p><img src="img/illustrations/skulls.png" alt="skulls logo illustration" title="Skulls Logo - Sharpie and digital color"></p>
 

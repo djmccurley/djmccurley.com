@@ -28,17 +28,6 @@
 
           <p>A mobile friendly web app to show the user's local weather based on IP location. The color palette changes depending on the temperature and the time of day. Users can choose to show temps in Celsius or Fahrenheit. Built for <a href="https://www.freecodecamp.com/djmccurley" target="_blank">freeCodeCamp</a> coding challenge.</p>
 
-          <p>The app makes use of <a href="http://ip-api.com" target="_blank">ip-api.com</a> and the <a href="http://openweathermap.org/current" target="_blank">openweathermap.org</a> API. Early versions used the browser's geolocation feature, but I ran into http vs https security issues once it went live. Other resources include:</p>
-          <ul>
-              <li>HTML / HTML5Boilerplate</li>
-              <li>CSS</li>
-              <li>Javascript / JSON</li>
-              <li>jQuery</li>
-              <li>AJAX</li>
-              <li>Google Fonts</li>
-              <li><a href="https://erikflowers.github.io/weather-icons/" target="_blank">weather-icons.css</a></li>
-          </ul>
-
           <p><a href="weather_app/index.html" class="project" target="_blank">Launch App</a> | <a href="https://github.com/djmccurley/weather_app" class="project" target="_blank">Project on GitHub</a></p>
 
           <p><img src="img/weather_app_day_600.jpg" alt="local weather app daytime mockup"></p>
