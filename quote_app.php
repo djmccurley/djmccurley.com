@@ -28,17 +28,6 @@
 
           <p>Responsive web app that displays a random quote from the <a href="http://forismatic.com/en/api/" target="_blank">forismatic API</a>. Users can also tweet the displayed quote. Built for <a href="https://www.freecodecamp.com/djmccurley" target="_blank">freeCodeCamp</a> coding challenge.</p>
 
-          <p>The app makes use of:</p>
-          <ul>
-              <li>HTML / HTML5Boilerplate</li>
-              <li>CSS / Media Queries</li>
-              <li>Javascript / JSON / JSONP</li>
-              <li>jQuery</li>
-              <li>AJAX</li>
-              <li>Google Fonts</li>
-              <li><a href="http://fontawesome.io/" target="_blank">Font Awesome</a></li>
-          </ul>
-
           <p><a href="quote_app/index.html" class="project" target="_blank">Launch App</a> | <a href="https://github.com/djmccurley/random-quote-app" class="project" target="_blank">Project on GitHub</a></p>
 
           <p><img src="img/quote_app_phone_600.jpg" alt="random quote app mockup"></p>
