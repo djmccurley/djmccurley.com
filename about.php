@@ -25,7 +25,7 @@
 
       <section class="main">
           <h2>About Me</h2>
-          <p>I've been interested in design and interactive technologies for a long time – I even built sites on Geocities and Tripod way back in the day. More recently, I've developed a strong interest in designing and building PRODUCTS: web apps, interfaces, games, etc. I'm looking to join a digital agency or dev team to contribute my skills and continue to grow while helping people solve their creative and business problems.</p>
+          <p>I'm a UI/UX designer and front-end developer based in Des Moines, Iowa.</p>
 
           <p>I have a BA in Spanish from University of Northern Iowa and an MA in Linguistics from Ohio State. I'm currently working on a post-bacc certificate in Interactive Design and Marketing from <a href="http://mcad.edu/academic-programs/interactive-design-and-marketing-certificate" target="_blank">MCAD</a>.</p>
  
