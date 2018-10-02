@@ -20,7 +20,7 @@
     <div id="page_wrapper" class="page_wrapper clearfix">    
       
       <!-- Sidebar -->
-      <?php include 'php/sidebar.php' ; ?>  
+      <div class="sidebar"></div><!-- sidebar nav -->  
 
       <section class="main extend_vertical">
           <h2>Welcome</h2>
@@ -34,9 +34,19 @@
     </div><!-- page_wrapper -->
 
     <!-- Mobile Menu -->
-    <?php include 'php/mobile.php' ; ?>
+    <nav class="mobile_menu"></nav>
 
     <!-- Scripts -->
-    <?php include 'php/scripts.php' ; ?>  
+    <script src='js/jquery-3.2.1.min.js'></script>
+<script src='js/plugins.js'></script>
+<script src='js/main.js'></script>
+<script>
+  (function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
+  function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new Date;
+  e=o.createElement(i);r=o.getElementsByTagName(i)[0];
+  e.src='https://www.google-analytics.com/analytics.js';
+  r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
+  ga('create','UA-13117340-4','auto');ga('send','pageview');
+</script>
   </body>
 </html>

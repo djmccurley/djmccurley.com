@@ -9,4 +9,7 @@ function menuToggle() {
 	}
 }
 
+
 document.getElementById("menu_button").addEventListener("click", menuToggle);
+$('.sidebar').load("nav/sidebar.html");
+$('.mobile_menu').load("nav/mobile.html");
